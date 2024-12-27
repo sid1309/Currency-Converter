@@ -1,0 +1,95 @@
+ body{
+    background-image: url("bgimg.jpg");
+    background-size: 100vw;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family:Arial;
+   
+ }
+ #title:hover{
+   
+   scale: 1.2;
+   transition-duration: 2s;
+   color: chocolate;
+
+ }
+ #amount{
+   background-color: transparent;
+   border-color: white;
+   border-radius: 7px;
+   color: white;
+   
+
+ }
+
+ 
+ .conversion{
+ 
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ #from{
+     background-color: transparent;
+   border-radius: 5px;
+   color: rgb(42, 0, 250);
+
+ }
+ #to{
+   background-color: transparent;
+   border-radius: 5px;
+   color: rgb(42, 0, 250);
+
+ }
+
+ .fromto{
+    display: flex;
+justify-content: space-evenly; 
+margin-right: 20px;
+}
+
+#title
+{
+text-align: center;
+text-transform: uppercase;
+text-shadow: 10px;
+
+}
+
+#convertButton{
+color: blue;
+font-size: larger;
+font-weight: bolder;
+background-color:aqua; 
+border-radius: 10px;
+height: 40px;
+width: 150px;
+}
+
+
+#convertButton:hover{
+   font-size: larger;
+   font-weight: bolder;
+   scale: 1.2;
+   transition-duration: 1s;
+   }
+
+#result{
+   color: rgb(0, 21, 255);
+   margin: 0px 230px 0px 230px;
+   display: none;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid white 2px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+  
+
+}
